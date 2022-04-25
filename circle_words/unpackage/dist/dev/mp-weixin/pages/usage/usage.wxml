@@ -1,0 +1,1 @@
+<view class="data-v-0931324a"><image class="content data-v-0931324a" src="../../static/intro.jpg" mode></image><button class="btn data-v-0931324a" type="primary" data-event-opts="{{[['tap',[['use',['$event']]]]]}}" bindtap="__e">点我使用</button></view>

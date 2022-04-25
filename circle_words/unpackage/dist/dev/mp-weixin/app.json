@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/review/review",
+    "pages/setting/setting",
+    "pages/search/search",
+    "pages/usage/usage",
+    "pages/words/words"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "Circle Words",
+    "navigationBarBackgroundColor": "#ffffff",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#3a82f7",
+    "borderStyle": "black",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "text": "复习",
+        "pagePath": "pages/review/review",
+        "iconPath": "static/icon/review.png",
+        "selectedIconPath": "static/icon/review1.png"
+      },
+      {
+        "text": "录词",
+        "pagePath": "pages/index/index",
+        "iconPath": "static/icon/aiscan.png",
+        "selectedIconPath": "static/icon/aiscan1.png"
+      },
+      {
+        "text": "设置",
+        "pagePath": "pages/setting/setting",
+        "iconPath": "static/icon/setting.png",
+        "selectedIconPath": "static/icon/setting1.png"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,9 @@
+
+.content.data-v-4cedc0c6 {
+	margin: 10px;
+}
+.top.data-v-4cedc0c6 {
+	display: flex;
+	justify-content: space-between;
+}
+

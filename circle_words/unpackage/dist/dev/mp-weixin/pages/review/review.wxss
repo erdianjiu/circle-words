@@ -1,0 +1,26 @@
+
+.content.data-v-743a7ac6 {
+	margin: 10px;
+}
+.title.data-v-743a7ac6 {
+	display: flex;
+	justify-content: center;
+	margin: 2vh 0;
+}
+.blank.data-v-743a7ac6 {
+	top: 20vh;
+	position: fixed;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 60vh;
+	font-size: x-large;
+	color: #afafaf;
+}
+.btns.data-v-743a7ac6 {
+	position: fixed;
+	width: 70vw;
+	top: 80vh
+}
+

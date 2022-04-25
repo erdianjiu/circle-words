@@ -1,0 +1,81 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index"
+		},{
+			"path": "pages/review/review",
+			"style": {
+				"navigationBarTitleText": "Circle Words",
+				// "navigationStyle":"custom",
+				"enablePullDownRefresh": false
+			}
+		},
+		
+		{
+			"path": "pages/setting/setting",
+			"style": {
+				"navigationBarTitleText": "Circle Words",
+				"enablePullDownRefresh": false
+			}
+		}
+	    ,{
+            "path" : "pages/search/search",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "查询",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/usage/usage",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "使用说明",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/words/words",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "Circle Words",
+		// "app-plus":{"titleNView":false},
+
+		"navigationBarBackgroundColor": "#ffffff",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#999999",
+		"selectedColor": "#3a82f7",
+		"borderStyle": "black",
+		"backgroundColor": "#FFFFFF",
+		"list": [{
+				"text": "复习",
+				"pagePath": "pages/review/review",
+				"iconPath": "static/icon/review.png",
+				"selectedIconPath": "static/icon/review1.png"
+			}, {
+				"text": "录词",
+				"pagePath": "pages/index/index",
+				"iconPath": "static/icon/aiscan.png",
+				"selectedIconPath": "static/icon/aiscan1.png"
+			},
+			{
+				"text": "设置",
+				"pagePath": "pages/setting/setting",
+				"iconPath": "static/icon/setting.png",
+				"selectedIconPath": "static/icon/setting1.png"
+			}
+		]
+	}
+}
